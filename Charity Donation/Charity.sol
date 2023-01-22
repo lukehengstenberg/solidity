@@ -3,8 +3,7 @@ pragma solidity ^0.4.25;
 import "./CharityFaucet.sol";
 
 // Contract representing a Charity account.
-// Accepts funds as a donation and then sends to a beneficiary using the 
-// CharityFaucet contract.
+// Sends funds to a beneficiary using ETH stored in the CharityFaucet contract.
 contract Charity { 
     
     CharityFaucet cfaucet;
